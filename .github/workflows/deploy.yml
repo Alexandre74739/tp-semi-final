@@ -14,3 +14,6 @@ jobs:
 
       - run: docker build -t alexandre74739/tp-semi-final .
       - run: docker push alexandre74739/tp-semi-final
+
+      - name: Trigger Render Deploy
+        run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
