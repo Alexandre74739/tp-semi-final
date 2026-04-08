@@ -1,10 +1,5 @@
 node_modules
-dist
 dist-ssr
-.git
+.dockerignore
 .gitignore
-*.log
-*.local
-.vscode
-.idea
-README.md
+Readme.md
